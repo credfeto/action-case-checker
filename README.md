@@ -1,7 +1,6 @@
 # File Case Sensitivity Checker
 
-This action finds any folders files that differ only by case.
-
+This action finds any folders files that differ only by case that can cause problems on Windows repositories.
 
 ## How to use it?
 This is a Github action, so it has to be added to a github workflow.  
@@ -22,4 +21,4 @@ jobs:
         uses: credfeto/action-case-checker@master
 ```
 
-On each push, it will now run the merge conflict finder
+On each push, it will now run the case sensitivity checker
