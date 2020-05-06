@@ -13,11 +13,11 @@ on: [push]
 jobs:
   case-sensitivity_job:
     runs-on: ubuntu-latest
-    name: check-file-case--sensitivity
+    name: check-file-case-sensitivity
     steps:
       # Checkout the source code so we have some files to look at.
       - uses: actions/checkout@v1
-      # Run the actual merge conflict finder
+      # Run the case checker action
       - name: Check Case Sensitivity
         uses: credfeto/action-case-checker@master
 ```
