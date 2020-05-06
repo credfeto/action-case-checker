@@ -1,0 +1,8 @@
+name: 'Case Sensitivity Checker'
+description: 'Check if there are any files or folders with same name differing only by case'
+branding:
+  icon: 'git-merge'
+  color: 'gray-dark'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
