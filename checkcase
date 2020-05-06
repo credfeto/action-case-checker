@@ -5,8 +5,8 @@ if
     find . | awk '!a[toupper($0)] {a[toupper($0)]=$0;next}{print a[toupper($0)] RS $0; exit 1}';
 then
     printf "\033[0;32mNo caseing issues.\033[0m\n"
-    exit 1;
+    exit 0;
 else
     printf "\033[1;31mFound files or folders with same name but different case.\033[0m\n"
-    exit 0;
+    exit 1;
 fi
