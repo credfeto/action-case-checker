@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v1
       # Run the actual merge conflict finder
       - name: Check Case Sensitivity
-        uses: credfeto/action-case-checker@master
+        uses: credfeto/action-case-checker@feat/change-to-alpine-linux
