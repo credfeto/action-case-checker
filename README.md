@@ -15,10 +15,12 @@ jobs:
     name: check-file-case-sensitivity
     steps:
       # Checkout the source code so we have some files to look at.
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2.4.0
+        with:
+          fetch-depth: 0
       # Run the case checker action
       - name: Check Case Sensitivity
-        uses: credfeto/action-case-checker@master
+        uses: credfeto/action-case-checker@v1.2
 ```
 
 On each push, it will now run the case sensitivity checker
