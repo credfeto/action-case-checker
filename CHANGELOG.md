@@ -9,6 +9,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+- Brought in latest version of alpine
 ### Removed
 ### Deployment Changes
 
