@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
       # Run the case checker action
       - name: Check Case Sensitivity
-        uses: credfeto/action-case-checker@v1.2.0
+        uses: credfeto/action-case-checker@v1.2.1
 ```
 
 On each push, it will now run the case sensitivity checker
