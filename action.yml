@@ -4,5 +4,7 @@ branding:
   icon: 'git-merge'
   color: 'gray-dark'
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'composite'
+  steps:
+    - run: $GITHUB_ACTION_PATH/checkcase
+      shell: bash
