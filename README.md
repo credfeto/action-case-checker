@@ -3,9 +3,9 @@
 This action finds any folders files that differ only by case that can cause problems on Windows repositories.
 
 ## How to use it?
-This is a Github action, so it has to be added to a github workflow.  
+This is a GitHub action, so it has to be added to a GitHub workflow.  
 A simple example of running this action on all pushes to the repository would be
-add a `main.yml` file under `.github/workflows` with the following content
+to add a `main.yml` file under `.github/workflows` with the following content
 ```yaml
 on: [push]
 
@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
       # Run the case checker action
       - name: Check Case Sensitivity
-        uses: credfeto/action-case-checker@v1.2.1
+        uses: credfeto/action-case-checker@v1.3.0
 ```
 
 On each push, it will now run the case sensitivity checker
