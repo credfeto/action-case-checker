@@ -2,13 +2,14 @@
 All notable changes to this project will be documented in this file.
 
 <!--
-Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
+Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 -->
 
 ## [Unreleased]
 ### Added
 ### Fixed
 ### Changed
+- Changed to a composite action rather than using docker
 ### Removed
 ### Deployment Changes
 
