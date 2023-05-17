@@ -1,4 +1,7 @@
 # File Case Sensitivity Checker
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This action finds any folders files that differ only by case that can cause problems on Windows repositories.
 
@@ -28,6 +31,20 @@ On each push, it will now run the case sensitivity checker
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/belav"><img src="https://avatars.githubusercontent.com/u/3606529?v=4?s=100" width="100px;" alt="Bela VanderVoort"/><br /><sub><b>Bela VanderVoort</b></sub></a><br /><a href="https://github.com/credfeto/action-case-checker/commits?author=belav" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
